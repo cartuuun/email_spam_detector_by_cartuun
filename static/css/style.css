@@ -15,7 +15,7 @@
   .head-nav {
     height:30px;
     width:100%;
-    background-color: green;
+    background-color: steelblue;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -42,12 +42,12 @@
     background-color:rgb(236, 214, 214);
     flex-flow: column;
     margin-top: -40px;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 10px;
   }
 .text-box {
     height: 65px;
-    width:90%;
+    width:120%;
     border-radius: 5px;
     border: 2px solid green;
     background-color: rgb(252, 248, 248);

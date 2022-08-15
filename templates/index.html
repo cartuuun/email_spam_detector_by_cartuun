@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai 2' rel='stylesheet'>
     <link rel="shortcut icon" href="static/img/logo-w.png"/>
     <title>SPAM Detector Website</title>
 </head>
 <body>
     <div class="container">
-        <div class="head-nav"><h3 style="font-size:10px; color:yellow; font-weight:bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Disclaimer :- This site classify emails into Spam or Non-Spam (HAM) mails.</h3></div>
+        <div class="head-nav"><h3 style="font-size:10px; color:yellow; font-weight:bold; font-family: 'Baloo Bhai 2';">Disclaimer :- This site classify emails into Spam or Non-Spam (HAM) mails.</h3></div>
         <div class="logo-heading">
         <img src="{{url_for('static', filename='img/spam1.png')}}" alt="Spam Detector">
     </div>   
@@ -24,7 +24,7 @@
     <br>
     {% if message %}
     <div class="show-result">
-        <div class="output"><h3 style="color:black; font-size:22px; font-weight:bold; font-family:'Courier New', Courier, monospace; text-transform: uppercase;">{{message}}</h3></div>
+        <div class="output"><h3 style="color:black; font-size:22px; font-weight:bold; font-family: 'Baloo Bhai 2';">{{message}}</h3></div>
         <br>
         {% if result=='This Message is Not a SPAM Message.' %}
         <div class="output-logo">
@@ -58,9 +58,9 @@
         {% endif %}
     </div>
     {% else %}
-    <h3 style="color:red; padding:30px;font-size:35px; font-weight:bold; font-family:'Courier New', Courier, monospace; text-transform: uppercase;">..Enter A Message To Check The Message is SPAM or NOT-SPAM..</h3>
+    <h3 style="color:red; padding:30px;font-size:35px; font-weight:bold; font-family: 'Baloo Bhai 2';">.. Enter A Message To Check The Message is SPAM or NOT-SPAM ..</h3>
     {% endif %}
-    <div class="head-git"><h2>For more Projects, you can visit Owner (Anas Murtaza) Github profile <a href="https://github.com/cartuuun" class="nav__link">Github-Page</a></h2></div> 
-    <div class="head"><h2> Copyright &copy; Spam Detector 2022</h2></div> 
+    <div class="head-git"><h2 >For more Projects, you can visit Owner (Anas Murtaza) Github profile <a style="font-weight:bold; font-family: 'Baloo Bhai 2';" href="https://github.com/cartuuun" class="nav__link">Github-Page</a></h2></div> 
+    <div class="head" ><h2 style="font-weight:bold; font-family: 'Baloo Bhai 2';"> Copyright &copy; Spam Detector 2022</h2></div> 
 </body>
 </html>
